@@ -1,0 +1,47 @@
+<html>
+<head>
+<title> Hello</title>
+<link rel="stylesheet" rel="text/css" href=" TUCSS.css">
+</head>
+<body><form>
+<label>Name:</label>
+<input type="text" name="name" value ="John" placeholder="enter your name !!"/>
+
+<!--access by name will show the value not the placeholder--!>
+label>ID:</label>
+<input type="text" />
+label>Password:</label>
+<input type="password" />
+
+< !-- s8--!>
+<input type="radio" name="gender" value="Male"/> Male
+<input type="radio" name="gender" value="Female"/> Female
+
+< !-- s9--!>
+<input type="checkbox" name="play" value=" Guitar"/>Guitar
+<input type="checkbox" name="play" value="  Piano"/>Piano
+
+< !-- s10--!>
+<select>
+<option name="city" value=" " disabled="true">  Select city</option>
+<option name="city" value="Bangalore"> Bangalore</option>
+</select>
+
+< !-- s11--!>
+<datalist>
+
+</datalist>
+
+< !--today is thursaday me thursday is colored-- !>
+<p>today is<span id="thursday"> Thursday</span></p>< !--d can be used once in whole page-- !>
+<p>today is<span class="day"> Thursday</span></p>< !--d can be used once in whole page-- !>
+
+
+
+
+
+<input type="submit" value="SUBMIT" />
+
+</form>
+</body>
+</html>
